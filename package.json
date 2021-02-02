@@ -1,0 +1,21 @@
+{
+  "name": "auto-updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "latest",
+    "electron-updater": "^4.3.5",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "uaup-js": "latest"
+  }
+}
