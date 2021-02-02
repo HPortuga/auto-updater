@@ -1,13 +1,13 @@
 const uaup = require('uaup-js');
 
 const defaultStages = {
-    Checking: "Checking for updates...",
-    Found: "Update found",
-    NotFound: "No updates found",
-    Donwloading: "Downloading...",
-    Unzipping: "Installing...",
-    Cleaning: "Finalizing...",
-    Launch: "Launching"
+    Checking: "Checking For Updates!", // When Checking For Updates.
+    Found: "Update Found!",  // If an Update is Found.
+    NotFound: "No Update Found.", // If an Update is Not Found.
+    Downloading: "Downloading...", // When Downloading Update.
+    Unzipping: "Installing...", // When Unzipping the Archive into the Application Directory.
+    Cleaning: "Finalizing...", // When Removing Temp Directories and Files (ex: update archive and tmp directory).
+    Launch: "Launching..." // When Launching the Application.
 };
 
 const updateOptions = {
